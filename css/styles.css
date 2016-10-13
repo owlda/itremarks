@@ -1,0 +1,45 @@
+  /** BODY OPTION **/
+body{
+  background-color: #d3d3d3;
+  font-family: 'Dosis' sans-serif;
+  color: #fff;
+  font-size: 16px;
+}
+/** NAVI OPTION **/
+#header-nav{
+  background-color: #483d8b;
+  border-radius: 0;
+  border:0;
+}
+#logo-nav{
+  background: url("/images/imageedit.png") no-repeat;
+width: 55px;
+height:55px;
+margin: 1px 10px 1px 1px;
+}
+.navbar-brand {
+  padding-top: 10px;
+}
+.navbar-brand h1 { /* NAME OF BLOG */
+  font-family: 'Ruda';
+  color: #fff;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #111;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* CERT */
+  color: #d3d3d3;
+  text-transform: uppercase;
+  font-size: .6em;
+  margin-top: 2px;
+}
+.navbar-brand p span { /*LOGO CERT*/
+  vertical-align: middle;
+}
